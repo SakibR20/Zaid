@@ -119,14 +119,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         USERNAME = get_me.username
         buttons = [
             [
-                InlineKeyboardButton("✘ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛꜱ", url='https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("✘ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛꜱ", url='https://t.me/NixaVcBot?startgroup=true'),
             ],
             [
                 InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton("✘ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("✘ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/Itz-Zaid/Zaid-Vc-Player"),
+                InlineKeyboardButton("✘ ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/NixaXD"),
             ],
             [
                 InlineKeyboardButton("✘ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
@@ -244,14 +244,14 @@ async def start(client: Client, message: Message):
     USERNAME = get_me.username
     buttons = [
             [
-                InlineKeyboardButton("✘ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛꜱ", url='https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("✘ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛꜱ", url='https://t.me/NixaVcBot?startgroup=true'),
             ],
             [
                 InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton("✘ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("✘ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/Itz-Zaid/Zaid-Vc-Player"),
+                InlineKeyboardButton("✘ ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/NixaXD"),
             ],
             [
                 InlineKeyboardButton("✘ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
